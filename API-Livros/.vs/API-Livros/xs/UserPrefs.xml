@@ -1,6 +1,9 @@
 ﻿<Properties StartupConfiguration="{D9F965C2-9E61-468B-81A4-E925F76F9ACA}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.API-Livros PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="API-Livros/Models/Livro.cs">
     <Files>
       <File FileName="API-Livros/Models/Livro.cs" Line="13" Column="1" IsPinned="True" />
@@ -12,9 +15,7 @@
             <Node name="API-Livros" expanded="True">
               <Node name="Contexts" expanded="True" />
               <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="Livro.cs" selected="True" />
-              </Node>
+              <Node name="Models" expanded="True" />
               <Node name="Repositories" expanded="True" />
             </Node>
           </Node>
@@ -25,9 +26,6 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.API-Livros PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
 </Properties>
