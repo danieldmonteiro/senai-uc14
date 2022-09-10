@@ -1,18 +1,18 @@
 ﻿<Properties StartupConfiguration="{D9F965C2-9E61-468B-81A4-E925F76F9ACA}|Default">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="API-Livros/Controllers/LivroController.cs">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="API-Livros/Models/Livro.cs">
     <Files>
-      <File FileName="API-Livros/Models/Livro.cs" Line="13" Column="1" IsPinned="True" />
-      <File FileName="API-Livros/Repositories/LivroRepository.cs" Line="49" Column="40" />
-      <File FileName="API-Livros/Controllers/LivroController.cs" Line="97" Column="40" />
+      <File FileName="API-Livros/Models/Livro.cs" Line="7" Column="44" IsPinned="True" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="API-Livros" expanded="True">
-            <Node name="API-Livros" expanded="True">
-              <Node name="Contexts" expanded="True" />
-              <Node name="Controllers" expanded="True" />
+            <Node name="API-Livros" expanded="True" selected="True">
               <Node name="Models" expanded="True" />
               <Node name="Repositories" expanded="True" />
             </Node>
@@ -25,9 +25,5 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.API-Livros PreferredExecutionTarget="/Applications/Safari.app" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
