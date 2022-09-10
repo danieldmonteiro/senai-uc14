@@ -1,4 +1,5 @@
 ﻿using API_Projetos.Contexts;
+using API_Projetos.Interfaces;
 using API_Projetos.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -7,9 +8,21 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("CorsPolicy", policy =>
+    {
+        policy.WithOrigins("https://localhost:3000")
+        .AllowAnyHeader()
+        .AllowAnyMethod();
+    });
+} );
+
 builder.Services.AddScoped<SqlContext, SqlContext>();
 
 builder.Services.AddTransient<ProjetoRepository, ProjetoRepository>();
+
+builder.Services.AddTransient<IUsuarioRepository, UsuarioRepository>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -25,6 +38,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors("CorsPolicy");
 
 app.UseAuthorization();
 
