@@ -10,7 +10,6 @@
 /Users/danielmonteiro/Documents/senai-uc14/API-Livros/API-Livros/bin/Debug/net6.0/MessagePack.Annotations.dll
 /Users/danielmonteiro/Documents/senai-uc14/API-Livros/API-Livros/bin/Debug/net6.0/Microsoft.AspNetCore.Razor.Language.dll
 /Users/danielmonteiro/Documents/senai-uc14/API-Livros/API-Livros/bin/Debug/net6.0/Microsoft.Bcl.AsyncInterfaces.dll
-/Users/danielmonteiro/Documents/senai-uc14/API-Livros/API-Livros/bin/Debug/net6.0/Microsoft.Build.Locator.dll
 /Users/danielmonteiro/Documents/senai-uc14/API-Livros/API-Livros/bin/Debug/net6.0/Microsoft.CodeAnalysis.AnalyzerUtilities.dll
 /Users/danielmonteiro/Documents/senai-uc14/API-Livros/API-Livros/bin/Debug/net6.0/Microsoft.CodeAnalysis.dll
 /Users/danielmonteiro/Documents/senai-uc14/API-Livros/API-Livros/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.dll
@@ -258,3 +257,6 @@
 /Users/danielmonteiro/Documents/senai-uc14/API-Livros/API-Livros/obj/Debug/net6.0/API-Livros.pdb
 /Users/danielmonteiro/Documents/senai-uc14/API-Livros/API-Livros/obj/Debug/net6.0/API-Livros.genruntimeconfig.cache
 /Users/danielmonteiro/Documents/senai-uc14/API-Livros/API-Livros/obj/Debug/net6.0/ref/API-Livros.dll
+/Users/danielmonteiro/Documents/senai-uc14/API-Livros/API-Livros/bin/Debug/net6.0/Microsoft.Build.dll
+/Users/danielmonteiro/Documents/senai-uc14/API-Livros/API-Livros/bin/Debug/net6.0/Microsoft.Build.Framework.dll
+/Users/danielmonteiro/Documents/senai-uc14/API-Livros/API-Livros/bin/Debug/net6.0/Microsoft.NET.StringTools.dll

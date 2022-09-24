@@ -6,12 +6,15 @@ using API_Livros.Repositories;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using API_Livros.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace API_Livros.Controllers
 {
     [Produces("application/json")]
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
+
     public class LivroController : ControllerBase
     {
         private readonly LivroRepository _livroRepository;
@@ -55,6 +58,8 @@ namespace API_Livros.Controllers
                 throw new Exception(e.Message);
             }
         }
+
+        [Authorize(Roles = "1")]
 
         [HttpPost]
 
